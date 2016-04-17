@@ -1,0 +1,7 @@
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\bin\Debug\PurchaseOrders.Model.dll
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\bin\Debug\PurchaseOrders.Model.pdb
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\bin\Debug\System.Web.Mvc.dll
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\bin\Debug\System.Web.Mvc.xml
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\obj\Debug\PurchaseOrders.Model.csprojResolveAssemblyReference.cache
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\obj\Debug\PurchaseOrders.Model.dll
+C:\Users\pcel morones\Documents\Visual Studio 2015\Projects\PurchaseOrders\PurchaseOrders.Model\obj\Debug\PurchaseOrders.Model.pdb

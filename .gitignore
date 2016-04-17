@@ -1,0 +1,7 @@
+packages/
+PurchaseOrdersMVC/bin/
+PurchaseOrdersMVC/obj/
+PurchaseOrders.Model/bin/
+PurchaseOrders.Model/obj/
+PurchaseOrders.Repository/bin/
+PurchaseOrders.Repository/obj/

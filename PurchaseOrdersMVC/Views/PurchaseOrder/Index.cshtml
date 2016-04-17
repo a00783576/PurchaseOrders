@@ -1,0 +1,59 @@
+﻿@model PurchaseOrders.Model.ViewModel.PurchaseOrderViewIndexModel
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Purchase Orders</h2>
+
+<div>
+    <p>
+        @Html.ActionLink("Create New", "Create", null, new { @style = "float:right" })
+        @Html.DropDownListFor(m => m.Categories.IdCategory, Model.Categories.List, "Select Category", new { @onchange = "changeFunction(this.value)" })
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                Numero de orden
+            </th>
+            <th>
+                Fecha de orden
+            </th>
+            <th>
+                Proveedor
+            </th>
+            <th>
+                Producto
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model.PurchaseOrders)
+            {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.IdOrder)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.SupplierName)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>s
+                <td>
+                    @Html.ActionLink("Delete", "Delete", new { id = item.IdOrder })
+                </td>
+            </tr>
+        }
+    </table>
+    </p>
+</div>
+<script>
+    function changeFunction(val)
+    {
+        window.location.href = "/PurchaseOrder/Index?idCategory=" + val;
+    }
+</script>
